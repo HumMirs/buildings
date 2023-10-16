@@ -1,0 +1,421 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.first-container {
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  margin-top: 170px;
+}
+
+.space {
+  background-color: #9bcdfc;
+  color: #9bcdfc;
+  height: 70px;
+  width: 9px;
+  margin-bottom: 30px;
+}
+
+.left h2 {
+  margin-left: 80px;
+  font-size: 50px;
+}
+
+.left p {
+  margin-left: 80px;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: 30px;
+}
+
+.left button {
+  margin-left: 80px;
+  border: 2px solid #9bcdfc;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  padding: 10px 25px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.left button:hover {
+  border: 3px solid #9bcdfc;
+  color: black;
+  background-color: white;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.one {
+  width: 100%;
+  height: 440px;
+  margin-bottom: 30px;
+}
+
+.two {
+  width: 47%;
+  height: 280px;
+}
+
+.three {
+  width: 47%;
+  height: 280px;
+}
+
+.second-container {
+  width: 100%;
+  background-color: #eef4fb;
+  display: flex;
+}
+
+.inner-container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.inner-container img {
+  width: 48%;
+  padding-top: 30px;
+}
+
+.inner-container h2 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 60px;
+  margin-bottom: 30px;
+}
+
+.inner-container p {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 60px;
+}
+
+.third-container {
+  background-image: url(Dubai_Marina_Skyline.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  position: relative;
+}
+
+.inner-container2 {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 40%;
+  background-color: white;
+  padding: 60px;
+  padding-right: 80px;
+}
+
+.inner-container2 h2 {
+  font-size: 37px;
+  line-height: 40px;
+}
+
+.inner-container2 button {
+  color: #9bcdfc;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  padding: 30px 0;
+  cursor: pointer;
+}
+
+.inner-container2 button:hover {
+  color: #59acfa;
+  background-color: white;
+  border: none;
+}
+
+.fourth-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fourth-container img {
+  width: 90%;
+  margin: 50px auto;
+  height: 400px;
+}
+
+.inner-container3 {
+  width: 100%;
+  text-align: center;
+  margin: 40px 90px;
+}
+
+.inner-container3 h2 {
+  font-size: 37px;
+}
+
+.inner-container3 p {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 30px 0;
+}
+
+.inner-container3 button {
+  border: 2px solid #9bcdfc;
+  color: black;
+  background-color: #9bcdfc;
+  font-size: 20px;
+  padding: 10px 25px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.inner-container3 button:hover {
+  border: 2px solid #9bcdfc;
+  color: black;
+  background-color: #59acfa;
+  font-size: 20px;
+  padding: 10px 25px;
+  margin-top: 30px;
+}
+
+.fifth-container {
+  width: 100%;
+  background-color: #c7def3;
+}
+
+.back {
+  display: flex;
+  margin: 50px;
+  height: 609px;
+}
+
+.first {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.first img {
+  width: 100%;
+  height: 300px;
+  padding-bottom: 0;
+}
+
+.first h2 {
+  font-size: 25px;
+  padding: 30px 20px;
+}
+
+.first button {
+  padding: 10px 20px;
+  color: #9bcdfc;
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.first button:hover {
+  color: #59acfa;
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.sixth-container {
+  width: 100%;
+}
+
+.middle {
+  width: 100%;
+  margin: 30px auto;
+  display: flex;
+}
+
+.left-middle {
+  width: 50%;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+
+.left-middle h2 {
+  font-size: 37px;
+  padding: 30px;
+}
+
+.left-middle p {
+  font-size: 20px;
+  padding-left: 35px;
+  font-weight: normal;
+}
+
+.left-middle button {
+  padding: 10px 30px;
+  color: #9bcdfc;
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.left-middle button:hover {
+  padding: 10px 30px;
+  color: #59acfa;
+  border: none;
+  background-color: white;
+  font-size: 18px;
+}
+
+.right-middle {
+  width: 50%;
+  padding: 30px 50px;
+}
+
+.right-middle img {
+  width: 100%;
+  height: 300px;
+}
+
+a {
+  color: #9bcdfc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #59acfa;
+  text-decoration: none;
+}
+
+.seventh-container {
+  width: 100%;
+  display: flex;
+  padding: 30px 10px;
+  background-color: #c7def3;
+  position: relative;
+}
+
+.img {
+  width: 45%;
+}
+
+.img img {
+  width: 100%;
+  margin: 30px;
+  height: 640px;
+  margin-top: 50px;
+}
+
+.img p {
+  position: absolute;
+  top: 648px;
+  left: 40px;
+  padding: 25px;
+  background-color: black;
+  color: white;
+}
+
+.right {
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.in {
+  width: 48%;
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.in img {
+  width: 80px;
+}
+
+.in h2 {
+  padding: 20px 0;
+}
+
+.in button {
+  color: #9bcdfc;
+  border: none;
+  background-color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.eighth-container {
+  width: 100%;
+  display: flex;
+  padding: 30px;
+}
+
+.eighth-container img {
+  width: 45%;
+  margin: 30px;
+}
+
+.last {
+  width: 55%;
+  padding: 90px 10px;
+  font-size: 20px;
+}
+
+.last h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.last button {
+  border: 2px solid #9bcdfc;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  padding: 10px 25px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.last p {
+  line-height: 35px;
+  padding-right: 40px;
+  font-weight: normal;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: black;
+}
+
+.footer-container p {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.footer-container a {
+  border-bottom: 1px solid #9bcdfc;
+}
+
+.footer-container a:hover {
+  border-bottom: none;
+}
